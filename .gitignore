@@ -1,0 +1,2 @@
+#loại bỏ folder node_modules không upload lên git hub
+/node_modules

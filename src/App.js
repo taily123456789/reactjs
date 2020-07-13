@@ -7,6 +7,9 @@ import BTBEGINSMARTPHONE from "./components/baitapplayout/BTBEGINSMARTPHONE";
 import BTproduc from "./components/baitapplayout/BTproduc";
 import BTpromotopn from "./components/baitapplayout/BTpromotopn";
 import Databinding from "./components/databinding/databinding.module";
+import Eventbinding from "./components/evenbinding/eventbinding";
+import HandleState from "./components/HandleState/HandleState";
+import Chonxe from "./components/HandleState/Chonxe";
 
 function App() {
   return (
@@ -17,6 +20,9 @@ function App() {
       <BTproduc />
       <BTpromotopn /> */}
       <Databinding />
+      <Eventbinding />
+      <HandleState />
+      <Chonxe />
     </div>
   );
 }
